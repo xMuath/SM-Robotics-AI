@@ -5,7 +5,7 @@
 
 **2.type in the commands down below in the terminal**
 
-**_Install ROS 1 on Remote PC 3. 1. 2._**
+||_Install ROS 1 on Remote PC 3. 1. 2._
  ```
 $ sudo apt-get update
 $ sudo apt-get upgrade
@@ -13,7 +13,7 @@ $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/instal
 $ chmod 755 ./install_ros_kinetic.sh 
 $ bash ./install_ros_kinetic.sh
  ```
- **_Install Dependent ROS 1 Packages 3. 1. 3._**
+||_Install Dependent ROS 1 Packages 3. 1. 3._
 ```
  $ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy \
   ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc \
@@ -25,7 +25,7 @@ $ bash ./install_ros_kinetic.sh
   ros-kinetic-compressed-image-transport ros-kinetic-rqt* \
   ros-kinetic-gmapping ros-kinetic-navigation ros-kinetic-interactive-markers
 ```
- **_Install TurtleBot3 Packages 3. 1. 4._**
+||_Install TurtleBot3 Packages 3. 1. 4._
 ```
 $ sudo apt-get install ros-kinetic-dynamixel-sdk
 $ sudo apt-get install ros-kinetic-turtlebot3-msgs
@@ -34,7 +34,7 @@ $ sudo apt-get install ros-kinetic-turtlebot3
 ```
 **3. Enter these codes in the terminal to install Simulation packages**
 
-**_Simulation Install 6. 1. 1._**
+||_Simulation Install 6. 1. 1._
 ```
 $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
@@ -50,7 +50,7 @@ $ source ~/catkin_ws/devel/setup.bash
 ```
 **6. Run these commands in the terminal to launch the simulation world.**
 
-**_6. 2. 1. Launch Simulation World_**
+||_6. 2. 1. Launch Simulation World_
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
@@ -60,7 +60,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 **7. Run these commands in the terminal to launch the SLAM Node.**
 
-**_6. 2. 2. "Run SLAM Node"_**
+||_6. 2. 2. "Run SLAM Node"_
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
@@ -69,7 +69,7 @@ $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
 **8. Run this command to be able to interact and control the robot**
 
-**_6. 2. 3. Run Teleoperation Node_**
+||_6. 2. 3. Run Teleoperation Node_
 ```
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
