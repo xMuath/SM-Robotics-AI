@@ -14,7 +14,7 @@ Steps:
 
 3. Installing the Virtual machine and sitting up the new Operating System.
 
-4. Opening the terminal and Download the ROS Melodic software using the steps on the download page (http://wiki.ros.org/melodic/Installation/Ubuntu).
+4. Opening the terminal and Download the ROS Melodic software using the steps on the download page [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu).
 
 5. Making sure that ROS Melodic is working by typing the ($ roscore) command in the terminal.
 
