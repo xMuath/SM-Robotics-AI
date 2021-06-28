@@ -1,9 +1,9 @@
 # These will be the steps to install the tools needed for simulating, mapping, and controlling a turtlebot robot.
 
-the links should direct you to the required commands immediatly.
+**the links should direct you to the required commands immediatly.**
 
 1. Make sure you already have a running VM with ubuntu 18.04 OS, and already installed ROS Melodic inside it.
-2. Enter this [Turtlebot3 Install](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup) website and follow the instructions to install Install Dependent ROS 1 Packages , and Install TurtleBot3 Packages.
+2. Make sure to not type in the command twice as the links will direct you to the same webiste but different places [Install ROS 1 on Remote PC 3. 1. 2.](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#install-ros-1-on-remote-pc)  [Install Dependent ROS 1 Packages 3. 1. 3.](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#install-dependent-ros-1-packages) [Install TurtleBot3 Packages 3. 1. 4.](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#install-turtlebot3-packages) website and follow the instructions to install Install Dependent ROS 1 Packages , and Install TurtleBot3 Packages.
 3. Enter this website [Simulation Install 6. 1. 1.](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#install-simulation-package) and follow the instructions to install a Simulation Package **You ONLY should  do the first step in this page which is (6. 1. 1. Install Simulation Package)**.
 4. Make sure to Type "*$ cd*" or make a new terminal after the 3rd step
 5. After you are done type in this command in the terminal "*source ~/catkin_ws/devel/setup.bash*"
