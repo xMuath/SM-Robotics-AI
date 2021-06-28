@@ -28,4 +28,3 @@ Steps:
 
 10. Using the ($ roslaunch robot_arm_pkg check_motors.launch) command to launch the Robotic Arm control
 
-[GitHub](http://github.com)
