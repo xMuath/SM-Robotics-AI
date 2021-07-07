@@ -48,7 +48,7 @@ $ cd ~/catkin_ws && catkin_make
 ```
 $ source ~/catkin_ws/devel/setup.bash
 ```
-**6. Run these commands in the terminal to launch the simulation world.**
+**6.In a new terminal Run these commands in the terminal to launch the simulation world.**
 
 ||_6. 2. 1. Launch Simulation World_
 ```
@@ -58,7 +58,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
 
-**7. Run these commands in the terminal to launch the SLAM Node.**
+**7.In a new terminal Run these commands in the terminal to launch the SLAM Node.**
 
 ||_6. 2. 2. "Run SLAM Node"_
 ```
@@ -67,7 +67,7 @@ $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
 **to run the SLAM Node and see the generated map by the Robot.**
 
-**8. Run this command to be able to interact and control the robot**
+**8.In a new terminal Run this command to be able to interact and control the robot**
 
 ||_6. 2. 3. Run Teleoperation Node_
 ```
