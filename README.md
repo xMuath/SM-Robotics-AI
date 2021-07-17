@@ -1,3 +1,3 @@
-This is my project for the summer training in Smart-Methods
+This is the first task of my project for the summer training in Smart-Methods
 
-In this project I'll be working on Robotics And Artificial intelligence in making Robot Arm, Chatbot, and much more.
+it requires me to install a Virtual machine using Ubuntu and installing Robotics operating system
